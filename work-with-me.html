@@ -832,7 +832,7 @@ function showCat(i){
   movePill(btns[i]);
   const cat = PACKAGES[cats[i]];
   pricesEl.classList.remove('swap'); void pricesEl.offsetWidth;
-  pricesEl.innerHTML = cat.tiers.map(p => `<div class="price spot${p.hot?' hot':''}">${p.hot?'<span class="badge">Recommended</span>':''}<div><h3 style="font-size:24px">${esc(p.name)}</h3><p class="tier">${esc(p.sub)}${cat.note?' · '+esc(cat.note):''}</p></div><div class="amt"><small>from</small> AED ${esc(p.price)} <small>${esc(cat.per)}</small></div><ul>${p.items.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><a class="btn ${p.hot?'solid':'ghost'}" href="#contact" style="margin-top:auto;justify-content:center">Get a quote <span class="ar">→</span></a></div>`).join('');
+  pricesEl.innerHTML = cat.tiers.map(p => `<div class="price spot${p.hot?' hot':''}">${p.hot?'<span class="badge">Recommended</span>':''}<div><h3 style="font-size:24px">${esc(p.name)}</h3><p class="tier">${esc(p.sub)}${cat.note?' · '+esc(cat.note):''}</p></div><div class="amt"><small>from</small> AED ${esc(p.price)} <small>${esc(cat.per)}</small></div><ul>${p.items.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><a class="btn ${p.hot?'solid':'ghost'}" href="https://wa.me/971547170476?text=${encodeURIComponent(`Hi Mujeeb, I'm interested in the ${cats[i]} – ${p.name} package (from AED ${p.price}${cat.per?' '+cat.per:''}). Can you share a quote?`)}" target="_blank" rel="noopener" style="margin-top:auto;justify-content:center">Get a quote on WhatsApp <span class="ar">→</span></a></div>`).join('');
   pricesEl.classList.add('swap');
 }
 showCat(0);
