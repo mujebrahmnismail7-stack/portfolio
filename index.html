@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mujeeb Rahman Ismail — Videographer &amp; Editor, Dubai</title>
+<meta name="description" content="Portfolio of Mujeeb Rahman Ismail — videographer, video editor and photographer in Dubai. Real estate films, event coverage and social reels.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--accent:#C8C8C8;--accent2:#F5F5F5;--bg:#050505;--bg2:#0A0A0A;--card:#0E0E0E;--line:#1F1F1F;--text:#F5F5F5;--muted:#A6A6A6;--dim:#A6A6A6}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:Archivo,sans-serif;margin:0;letter-spacing:-.01em}
+h2{font-weight:700;font-size:clamp(32px,5vw,54px);line-height:1.05}
+.eyebrow{margin:0;width:fit-content;display:inline-flex;align-items:center;gap:8px;padding:6px 12px 6px 8px;border-radius:999px;border:1px solid #2A2A2A;background:linear-gradient(180deg,#141414,#0A0A0A);font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#C8C8C8}
+.eyebrow::before{content:"";width:12px;height:12px;border-radius:50%;background:conic-gradient(from 45deg,#fff 0 25%,#555 0 50%,#fff 0 75%,#555 0);box-shadow:0 0 8px rgba(255,255,255,.5)}
+.sub{margin:0;color:var(--muted);font-size:17px;line-height:1.6;max-width:620px}
+.head{display:flex;flex-direction:column;gap:14px;align-items:center;text-align:center;margin-bottom:56px}
+section{position:relative;scroll-margin-top:84px}
+.pad{padding:120px 0}
+
+/* buttons */
+.btn{position:relative;display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:600;font-size:15px;padding:13px 22px;border-radius:999px;transition:transform .25s cubic-bezier(.2,.8,.2,1),box-shadow .3s;will-change:transform}
+.btn.solid{background:#F5F5F5;color:#050505;box-shadow:0 0 0 1px rgba(255,255,255,.6) inset,0 8px 30px rgba(255,255,255,.45)}
+.btn.solid:hover{box-shadow:0 0 0 1px rgba(255,255,255,.8) inset,0 10px 44px rgba(255,255,255,.7)}
+.btn.ghost{color:var(--text);background:rgba(255,255,255,.04);border:1px solid #333333}
+.btn .ar{transition:transform .25s}.btn:hover .ar{transform:translateX(4px)}
+
+/* nav */
+header{position:fixed;top:0;left:0;right:0;z-index:60;transition:background .3s,border-color .3s;border-bottom:1px solid transparent}
+header.scrolled{background:rgba(5,5,5,.78);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-color:var(--line)}
+nav{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding:14px 0}
+.logo{font-family:Archivo,sans-serif;font-weight:700;font-size:18px;letter-spacing:.01em;color:var(--text);text-decoration:none;display:flex;align-items:center}
+.logo b{color:var(--accent)}
+.rec{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--accent);margin-right:10px;box-shadow:0 0 10px var(--accent);animation:blink 1.4s steps(1) infinite}
+.links{display:flex;flex-wrap:wrap;align-items:center;gap:2px}
+.links a:not(.btn){color:var(--muted);text-decoration:none;font-size:14px;padding:12px 12px}
+.links a:not(.btn):hover{color:var(--text)}
+
+/* hero */
+.hero{padding:150px 0 0;text-align:center;overflow:hidden}
+.hero{position:relative}
+.hero .wrap{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:24px}
+.pill{display:inline-flex;align-items:center;gap:10px;padding:5px 14px 5px 5px;border-radius:999px;border:1px solid #2A2A2A;background:rgba(255,255,255,.03);font-size:13px;color:var(--muted);text-decoration:none}
+.pill span{background:#F5F5F5;color:#050505;font-weight:600;border-radius:999px;padding:4px 10px}
+.hero h1{font-weight:700;font-size:clamp(42px,7.4vw,92px);line-height:1;letter-spacing:-.025em}
+.tagline{margin:-6px 0 0;font-family:Archivo,sans-serif;font-weight:600;font-size:clamp(20px,2.6vw,30px);color:var(--text)}
+.hero h1 em{font-style:normal;color:#C8C8C8}
+.planet-zone{position:relative;z-index:1;height:520px;margin-top:-10px}
+.planet{position:absolute;left:50%;top:150px;width:1500px;height:1500px;transform:translateX(-50%);border-radius:50%;background:radial-gradient(circle at 50% 0%,#0C0C0C 0%,#050505 45%);box-shadow:0 -1px 0 rgba(255,255,255,.9),0 -24px 70px rgba(255,255,255,.55),0 -90px 220px rgba(255,255,255,.25),inset 0 40px 80px rgba(255,255,255,.28);animation:breathe 6s ease-in-out infinite}
+.planet::before{content:"";position:absolute;inset:-2px;border-radius:50%;background:conic-gradient(from 0deg,transparent 0deg,rgba(255,255,255,.95) 30deg,rgba(255,255,255,.9) 60deg,transparent 110deg,transparent 360deg);-webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 4px),#000 calc(100% - 3px));mask:radial-gradient(farthest-side,transparent calc(100% - 4px),#000 calc(100% - 3px));animation:orbit 9s linear infinite;filter:blur(1px)}
+.flare{position:absolute;left:50%;top:110px;width:700px;height:120px;transform:translateX(-50%);background:radial-gradient(ellipse at center,rgba(255,255,255,.45),transparent 70%);filter:blur(20px);animation:breathe 6s ease-in-out infinite}
+
+.waves{position:absolute;inset:0;z-index:0;pointer-events:none;width:100%;height:100%}
+.waves g{animation:drift 9s ease-in-out infinite alternate;transform-origin:50% 50%}
+.waves g.r{animation-delay:-4.5s}
+.streak{position:absolute;top:-140px;width:1px;height:140px;background:linear-gradient(180deg,transparent,rgba(255,255,255,.9),transparent);animation:fall 5s linear infinite;z-index:1;pointer-events:none}
+.beamv{position:absolute;left:50%;top:-30px;width:2px;height:190px;transform:translateX(-50%);background:linear-gradient(180deg,rgba(255,255,255,0),rgba(255,255,255,.95));box-shadow:0 0 18px 4px rgba(255,255,255,.35);z-index:2;animation:breathe 3s ease-in-out infinite}
+.tile{position:absolute;left:50%;top:150px;transform:translate(-50%,-50%);width:84px;height:84px;border-radius:22px;z-index:3;display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,#2a2a2a,#0e0e0e);border:1px solid #444;box-shadow:0 0 0 6px rgba(255,255,255,.04),0 0 60px rgba(255,255,255,.35)}
+.tile svg{filter:drop-shadow(0 0 6px rgba(255,255,255,.6))}
+@keyframes drift{from{transform:translateY(0) scaleY(1)}to{transform:translateY(18px) scaleY(1.04)}}
+@keyframes fall{from{transform:translateY(0);opacity:0}10%{opacity:1}to{transform:translateY(900px);opacity:0}}
+
+/* showreel frame rising */
+.frame-zone{position:relative;z-index:3;margin-top:-300px;perspective:1600px}
+.frame{transform-origin:50% 0;transform:rotateX(28deg) scale(.9);will-change:transform;border-radius:16px;padding:10px;background:linear-gradient(180deg,#2A2A2A,#0E0E0E);border:1px solid #333333;box-shadow:0 -10px 60px rgba(255,255,255,.15),0 50px 120px rgba(0,0,0,.8)}
+.frame-bar{display:flex;align-items:center;justify-content:space-between;padding:8px 10px 14px;color:var(--dim);font-size:13px}
+.dots{display:flex;gap:6px}.dots i{width:10px;height:10px;border-radius:50%;background:#333333}
+.reel{background-size:cover!important;aspect-ratio:16/9;width:100%;border-radius:10px;background:#050505 center/cover no-repeat;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-decoration:none;color:var(--dim);position:relative;overflow:hidden}
+.playb{width:84px;height:84px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.6);box-shadow:0 0 40px rgba(255,255,255,.35);position:relative}
+.playb::after{content:"";position:absolute;inset:-1px;border-radius:50%;border:1px solid var(--accent);animation:ping 2.2s ease-out infinite}
+
+/* marquee */
+.logos{padding:90px 0 40px;text-align:center}
+.logos p{margin:0 0 26px;color:var(--dim);font-size:14px}
+.marq{overflow:hidden;-webkit-mask:linear-gradient(90deg,transparent,#000 15%,#000 85%,transparent);mask:linear-gradient(90deg,transparent,#000 15%,#000 85%,transparent)}
+.mtrack{display:flex;gap:64px;width:max-content;animation:slide 30s linear infinite}
+.mtrack span{font-family:Archivo,sans-serif;font-weight:700;font-size:26px;color:#C8C8C8;display:flex;align-items:center;gap:10px;white-space:nowrap}
+.mtrack span::before{content:"";width:8px;height:8px;border-radius:2px;background:var(--accent);opacity:.8;transform:rotate(45deg)}
+
+/* spotlight cards */
+.spot{position:relative;background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;isolation:isolate}
+.spot::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(420px circle at var(--mx,50%) var(--my,-30%),rgba(255,255,255,.14),transparent 45%);opacity:0;transition:opacity .4s}
+.spot::after{content:"";position:absolute;inset:0;border-radius:inherit;padding:1px;background:radial-gradient(300px circle at var(--mx,50%) var(--my,-30%),rgba(255,255,255,.8),transparent 50%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0);opacity:0;transition:opacity .4s;pointer-events:none}
+.spot:hover::before,.spot:hover::after{opacity:1}
+
+/* bento */
+.bento{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-rows:minmax(240px,auto);gap:20px}
+.bento .spot{padding:30px;display:flex;flex-direction:column;gap:10px}
+.bento h3{font-size:22px;font-weight:700}
+.bento p{margin:0;color:var(--muted);font-size:15px;line-height:1.55}
+.b-tall{grid-row:span 2;justify-content:flex-end}
+.b-wide{grid-column:span 2}
+.beam{position:absolute;top:0;left:50%;width:240px;height:58%;transform:translateX(-50%);clip-path:polygon(0 0,100% 0,62% 100%,38% 100%);background:linear-gradient(180deg,#F5F5F5 0%,rgba(255,255,255,.55) 55%,rgba(160,160,160,0) 100%);animation:beam 4s ease-in-out infinite;z-index:-1}
+.beam-icon{position:absolute;top:52%;left:50%;transform:translate(-50%,-50%);width:76px;height:76px;border-radius:18px;background:#141414;border:1px solid #333333;display:flex;align-items:center;justify-content:center;box-shadow:0 0 50px rgba(255,255,255,.45)}
+.mini{display:flex;flex-direction:column;gap:8px;margin-top:auto}
+.mini div{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:10px;background:#141414;border:1px solid #1F1F1F;font-size:13px;color:var(--muted)}
+.mini div.on{background:linear-gradient(90deg,#C8C8C8,#F5F5F5);color:#050505;font-weight:600;border-color:transparent;animation:slideIn 3.5s ease-in-out infinite}
+.wave{margin-top:auto;height:70px}
+.wave path{stroke-dasharray:600;stroke-dashoffset:600;animation:draw 3s ease forwards infinite}
+.spark{position:absolute;right:28px;bottom:26px;display:flex;gap:10px;align-items:flex-end}
+.spark svg{animation:twinkle 2.4s ease-in-out infinite}.spark svg:nth-child(2){animation-delay:.6s}.spark svg:nth-child(3){animation-delay:1.2s}
+
+/* 3D ring */
+.scene{position:relative;height:620px;overflow:hidden;perspective:1400px;perspective-origin:50% 40%}
+.stage{position:absolute;inset:0}
+.tilt{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .25s ease-out;transform:rotateX(-8deg)}
+.ring{position:absolute;left:50%;top:50%;width:0;height:0;transform-style:preserve-3d;animation:spinY 28s linear infinite}
+.scene:hover .ring{animation-play-state:paused}
+.panel{position:absolute;left:-130px;top:-170px;width:260px;height:340px;border-radius:16px;border:1px solid rgba(255,255,255,.55);background:#0E0E0E;padding:20px;display:flex;flex-direction:column;justify-content:space-between;text-decoration:none;color:var(--text);box-shadow:0 0 30px rgba(255,255,255,.12)}
+.panel .ph{aspect-ratio:4/3;border-radius:10px;background:#141414 center/cover no-repeat;display:flex;align-items:center;justify-content:center}
+.panel .tag{margin:0;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.panel .tt{margin:6px 0 0;font-family:Archivo,sans-serif;font-weight:700;font-size:20px;line-height:1.15}
+.hint{position:absolute;bottom:16px;left:0;right:0;margin:0;text-align:center;font-size:13px;color:var(--dim)}
+
+/* projects */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(330px,100%),1fr));gap:24px}
+.proj{display:flex;flex-direction:column;gap:12px;padding:16px;color:var(--text);text-decoration:none;transition:transform .4s cubic-bezier(.2,.8,.2,1)}
+.proj:hover{transform:translateY(-6px)}
+.proj .thumb{aspect-ratio:16/10;background:#141414 center/cover no-repeat;border-radius:12px;display:flex;align-items:center;justify-content:center;color:var(--dim);font-size:14px;overflow:hidden}
+.proj .tag{margin:6px 0 0;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.proj h3{font-size:22px;font-weight:700}
+.proj p{margin:0;font-size:15px;line-height:1.55;color:var(--muted)}
+.watch{font-weight:600;color:var(--accent);font-size:14px}
+
+.pfilter{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-bottom:36px}
+.pfilter .chip{cursor:pointer;font:500 14px Inter,sans-serif;padding:11px 16px;color:var(--muted)}
+.pfilter .chip.on{color:#050505;background:#F5F5F5!important;border-color:#F5F5F5!important}
+.pfilter .cnt{opacity:.6;font-size:12px;margin-left:4px}
+#projects.swap .proj{animation:cardIn .6s cubic-bezier(.2,.8,.2,1) both}
+#projects.swap .proj:nth-child(3n+2){animation-delay:.06s}#projects.swap .proj:nth-child(3n){animation-delay:.12s}
+.proj .thumb{position:relative;background-image:radial-gradient(circle at 30% 20%,rgba(255,255,255,.08),transparent 60%)}
+.pnum{position:absolute;top:12px;left:14px;font-family:Archivo,sans-serif;font-weight:800;font-size:13px;letter-spacing:.1em;color:rgba(255,255,255,.45)}
+.proj:hover .thumb svg{transform:scale(1.12)}.proj .thumb svg{transition:transform .4s}
+#pmore{cursor:pointer;font-family:inherit}
+
+/* sticky process */
+.process{display:flex;flex-wrap:wrap;gap:56px;align-items:flex-start}
+.p-left{flex:1 1 360px;position:sticky;top:120px;display:flex;flex-direction:column;gap:18px}
+.bignum{font-family:Archivo,sans-serif;font-weight:800;font-size:clamp(90px,14vw,170px);line-height:.9;color:transparent;-webkit-text-stroke:1.5px var(--accent);transition:opacity .3s}
+.p-right{flex:999 1 480px;min-width:0;display:flex;flex-direction:column;gap:24px}
+.step{min-height:46vh;display:flex;align-items:center}
+.step .spot{padding:36px;width:100%;opacity:.35;transform:scale(.96);transition:opacity .5s,transform .5s,border-color .5s}
+.step.active .spot{opacity:1;transform:none;border-color:rgba(255,255,255,.5);box-shadow:0 0 60px rgba(255,255,255,.12)}
+.step h3{font-size:28px;margin:10px 0}
+.step p{margin:0;color:var(--muted);font-size:16px;line-height:1.6}
+.step .n{font-size:13px;font-weight:600;letter-spacing:.14em;color:var(--accent)}
+
+/* pricing */
+.prices{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:20px;align-items:stretch}
+.price{padding:32px;display:flex;flex-direction:column;gap:16px}
+.price.hot{border-color:rgba(255,255,255,.6);box-shadow:0 0 0 1px rgba(255,255,255,.3) inset,0 30px 80px rgba(255,255,255,.18);background:linear-gradient(180deg,#161616,#0E0E0E 50%)}
+.price .amt{font-family:Archivo,sans-serif;font-size:36px;font-weight:700}
+.price .amt small{font-size:15px;color:var(--dim);font-weight:500}
+.price ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;color:var(--muted);font-size:15px}
+.price li{display:flex;gap:10px;align-items:flex-start}
+.price li::before{content:"✓";flex:0 0 20px;height:20px;border-radius:6px;background:rgba(255,255,255,.15);color:var(--accent);font-weight:700;font-size:12px;display:flex;align-items:center;justify-content:center}
+.badge{align-self:flex-start;font-size:12px;font-weight:600;padding:5px 10px;border-radius:999px;background:#F5F5F5;color:#050505}
+
+.tabs{position:relative;display:inline-flex;flex-wrap:wrap;justify-content:center;gap:4px;padding:5px;border-radius:999px;background:#0A0A0A;border:1px solid var(--line);margin:0 auto 40px}
+.tabs button{position:relative;z-index:1;border:0;background:none;color:var(--muted);font:600 14px Inter,sans-serif;padding:11px 18px;border-radius:999px;cursor:pointer;transition:color .3s}
+.tabs button[aria-selected="true"]{color:#050505}
+.tabs .pillbg{position:absolute;z-index:0;top:5px;left:5px;height:calc(100% - 10px);border-radius:999px;background:#F5F5F5;box-shadow:0 4px 20px rgba(255,255,255,.45);transition:transform .45s cubic-bezier(.2,.8,.2,1),width .45s cubic-bezier(.2,.8,.2,1)}
+.tabwrap{text-align:center}
+.prices.swap .price{animation:cardIn .6s cubic-bezier(.2,.8,.2,1) both}
+.prices.swap .price:nth-child(2){animation-delay:.08s}.prices.swap .price:nth-child(3){animation-delay:.16s}
+@keyframes cardIn{from{opacity:0;transform:translateY(24px) scale(.97);filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
+.price .tier{margin:0;color:var(--dim);font-size:14px}
+.extras{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(340px,100%),1fr));gap:20px;margin-top:20px}
+.extras .spot{padding:28px}
+.extras h3{font-size:18px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:14px}
+.addon{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-top:1px solid var(--line);color:var(--muted);font-size:15px}
+.addon b{color:var(--text)}
+.terms{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:10px;color:var(--muted);font-size:15px;line-height:1.5}
+.pnote{margin:18px 0 0;text-align:center;color:var(--dim);font-size:14px}
+
+/* experience */
+.jobs{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:16px}
+.job{padding:28px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px}
+.job div{display:flex;flex-direction:column;gap:6px;flex:1 1 300px}
+.job h3{font-size:22px}
+.job .pl{margin:0;color:var(--accent)}
+.job .d{margin:6px 0 0;line-height:1.55;color:var(--muted)}
+.job .w{margin:0;font-size:14px;color:var(--dim)}
+
+.jl{margin:8px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:6px;color:var(--muted);font-size:15px;line-height:1.5}
+.jl li::marker{color:var(--accent)}
+.kit{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(340px,100%),1fr));gap:20px;margin-top:20px}
+.kh{font-size:18px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:18px}
+.tools{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.tool{display:flex;align-items:center;gap:12px;padding:12px;border-radius:12px;background:#141414;border:1px solid #2A2A2A;font-size:15px;animation:bob 4s ease-in-out infinite}
+.tool b{width:40px;height:40px;flex:0 0 40px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-family:Archivo,sans-serif;font-size:16px;color:var(--accent);background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.45);box-shadow:0 0 20px rgba(255,255,255,.2)}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{padding:9px 14px;border-radius:999px;border:1px solid #333333;background:#141414;color:var(--muted);font-size:14px;transition:border-color .3s,color .3s,transform .3s}
+.chip:hover{border-color:var(--accent);color:var(--text);transform:translateY(-2px)}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+
+/* CTA */
+.cta{overflow:hidden;text-align:center;padding:140px 0 200px}
+.cta .wrap{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:26px}
+.cta h2{font-size:clamp(40px,7vw,84px);font-weight:800;letter-spacing:-.025em}
+.cta .planet{top:auto;bottom:-1340px}
+.cta .flare{top:auto;bottom:100px}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+footer{border-top:1px solid var(--line)}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;padding:28px 24px;font-size:14px;color:var(--dim)}
+
+/* reveals */
+.rv{opacity:0;transform:translateY(36px);filter:blur(8px);transition:opacity .9s cubic-bezier(.2,.8,.2,1),transform .9s cubic-bezier(.2,.8,.2,1),filter .9s}
+.rv.in{opacity:1;transform:none;filter:none}
+.split .w{display:inline-block;opacity:0;filter:blur(10px);transform:translateY(14px);transition:opacity .7s,filter .7s,transform .7s cubic-bezier(.2,.8,.2,1)}
+.split.in .w{opacity:1;filter:none;transform:none}
+
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.2}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes breathe{0%,100%{filter:brightness(1)}50%{filter:brightness(1.25)}}
+@keyframes ping{0%{transform:scale(1);opacity:.8}100%{transform:scale(1.8);opacity:0}}
+@keyframes slide{to{transform:translateX(-50%)}}
+@keyframes beam{0%,100%{opacity:.85}50%{opacity:1;filter:brightness(1.2)}}
+@keyframes twinkle{0%,100%{transform:scale(.7) rotate(0);opacity:.5}50%{transform:scale(1.1) rotate(20deg);opacity:1}}
+@keyframes draw{0%{stroke-dashoffset:600}60%,100%{stroke-dashoffset:0}}
+@keyframes slideIn{0%,100%{transform:translateX(0)}50%{transform:translateX(6px)}}
+@keyframes spinY{to{transform:rotateY(-360deg)}}
+
+@media (max-width:900px){.bento{grid-template-columns:minmax(0,1fr)}.b-tall{grid-row:auto;min-height:340px}.b-wide{grid-column:auto}.p-left{position:static}.step{min-height:auto}.step .spot{opacity:1;transform:none}}
+@media (max-width:760px){.links a:not(.btn){display:none}.logo{font-size:15px}.planet{width:900px;height:900px;top:120px}.planet-zone{height:380px}.frame-zone{margin-top:-220px}.stage{transform:scale(.6)}.scene{height:460px}.cta .planet{bottom:-760px}.pad{padding:84px 0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv,.split .w{opacity:1;filter:none;transform:none}.frame{transform:none}}
+
+/* ===== glass ===== */
+.ambient{position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden}
+.ambient i{position:absolute;border-radius:50%;filter:blur(80px);opacity:.75;animation:float 22s ease-in-out infinite alternate}
+.ambient i:nth-child(1){width:520px;height:520px;left:-120px;top:10%;background:radial-gradient(circle,rgba(255,255,255,.22),transparent 65%)}
+.ambient i:nth-child(2){width:620px;height:620px;right:-160px;top:45%;background:radial-gradient(circle,rgba(200,200,200,.16),transparent 65%);animation-delay:-8s}
+.ambient i:nth-child(3){width:460px;height:460px;left:35%;top:80%;background:radial-gradient(circle,rgba(255,255,255,.14),transparent 65%);animation-delay:-14s}
+@keyframes float{from{transform:translate(0,0)}to{transform:translate(80px,-120px)}}
+.spot,.frame,.tabs,.pill,.eyebrow,.mini div,.tool,.chip,.beam-icon,.tile,.panel,.btn.ghost{
+  background:linear-gradient(145deg,rgba(255,255,255,.035),rgba(255,255,255,0) 60%)!important;
+  -webkit-backdrop-filter:blur(4px) saturate(120%);backdrop-filter:blur(4px) saturate(120%);
+  border:1px solid rgba(255,255,255,.16)!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.22),inset 1px 0 0 rgba(255,255,255,.06),inset 0 -1px 0 rgba(255,255,255,.04),0 10px 30px rgba(0,0,0,.25)}
+.spot{position:relative}
+.spot>*:not(.beam):not(.beam-icon):not(.spark):not(.sheen){position:relative}
+.price.hot{background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,0) 60%)!important;border-color:rgba(255,255,255,.3)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 0 60px rgba(255,255,255,.12),0 30px 80px rgba(0,0,0,.5)}
+.mini div.on{background:linear-gradient(90deg,rgba(255,255,255,.9),rgba(255,255,255,.6))!important;color:#050505}
+.reel{background-color:rgba(0,0,0,.2)}
+.proj .thumb{background-color:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.08)}
+.panel .ph{background-color:rgba(255,255,255,.05)}
+.tile{border-radius:22px}
+header.scrolled{background:rgba(10,10,10,.2);-webkit-backdrop-filter:blur(8px) saturate(140%);backdrop-filter:blur(8px) saturate(140%);border-color:rgba(255,255,255,.1)}
+.spot .sheen{position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.07) 50%,transparent 65%);background-size:250% 100%;background-position:120% 0;transition:background-position .9s ease}
+.spot:hover .sheen{background-position:-20% 0}
+
+/* ===== premium tiles ===== */
+#projects{grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:20px}
+.tile3{position:relative;display:block;aspect-ratio:4/5;border-radius:18px;overflow:hidden;isolation:isolate;text-decoration:none;color:var(--text);background:#0E0E0E;border:1px solid rgba(255,255,255,.12);box-shadow:inset 0 1px 0 rgba(255,255,255,.18),0 18px 40px rgba(0,0,0,.45);transition:transform .5s cubic-bezier(.2,.8,.2,1),border-color .4s,box-shadow .5s}
+.tile3 img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transform:scale(1.01);transition:transform 1.1s cubic-bezier(.2,.8,.2,1),filter .6s;filter:saturate(.95)}
+.tile3 .noimg{position:absolute;inset:0;z-index:-2;background:radial-gradient(circle at 30% 20%,rgba(255,255,255,.1),transparent 55%),linear-gradient(160deg,#151515,#070707)}
+.tile3 .pnum{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-family:Archivo,sans-serif;font-weight:800;font-size:72px;color:rgba(255,255,255,.06)}
+.tile3 .shade{position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,transparent 28%,transparent 50%,rgba(0,0,0,.85) 100%)}
+.ptag{position:absolute;top:12px;left:12px;padding:6px 10px;border-radius:999px;font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.pplay{position:absolute;top:50%;left:50%;width:58px;height:58px;margin:-29px 0 0 -29px;border-radius:50%;display:flex;align-items:center;justify-content:center;padding-left:3px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);box-shadow:0 0 30px rgba(255,255,255,.2);opacity:0;transform:scale(.8);transition:opacity .4s,transform .4s cubic-bezier(.2,.8,.2,1)}
+.pinfo{position:absolute;left:14px;right:14px;bottom:14px;display:flex;flex-direction:column;gap:4px}
+.ptitle{font-family:Archivo,sans-serif;font-weight:700;font-size:18px;line-height:1.15;text-shadow:0 2px 12px rgba(0,0,0,.6)}
+.pwatch{font-size:13px;color:#D8D8D8;opacity:.85}
+.tile3:hover,.tile3:focus-visible{transform:translateY(-6px);border-color:rgba(255,255,255,.35);box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 28px 60px rgba(0,0,0,.6),0 0 40px rgba(255,255,255,.08)}
+.tile3:hover img,.tile3:focus-visible img{transform:scale(1.07);filter:saturate(1.05)}
+.tile3:hover .pplay,.tile3:focus-visible .pplay{opacity:1;transform:scale(1)}
+@media (hover:none){.pplay{opacity:1;transform:scale(.85)}}
+/* ring panels as image cards */
+.panel{padding:0!important;overflow:hidden;justify-content:flex-end!important}
+.panel img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.panel .pshade{position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(0,0,0,.85))}
+.panel .pmeta{position:relative;padding:18px}
+/* menu button */
+.menu-btn{display:none;width:44px;height:44px;border-radius:12px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.05);cursor:pointer;flex-direction:column;align-items:center;justify-content:center;gap:6px}
+.menu-btn span{display:block;width:18px;height:2px;border-radius:2px;background:#F5F5F5;transition:transform .3s}
+header.open .menu-btn span:first-child{transform:translateY(4px) rotate(45deg)}
+header.open .menu-btn span:last-child{transform:translateY(-4px) rotate(-45deg)}
+
+/* ===== laptop (≤1280) ===== */
+@media (max-width:1280px){.wrap{padding:0 32px}}
+/* ===== tablet (≤1024) ===== */
+@media (max-width:1024px){
+  .hero{padding-top:130px}
+  .planet{width:1100px;height:1100px}
+  .frame-zone{margin-top:-260px}
+  .scene{height:540px}.stage{transform:scale(.8)}
+  .bento{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .b-tall{grid-row:span 2}.b-wide{grid-column:span 2}
+  #projects{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .process{gap:32px}.p-left{position:static;flex-basis:100%}.step{min-height:auto}.step .spot{opacity:1;transform:none}
+  .bignum{font-size:110px}
+  .contact,.cta .wrap{gap:24px}
+  .pad{padding:96px 0}
+}
+/* ===== phone (≤680) ===== */
+@media (max-width:680px){
+  .wrap{padding:0 18px}
+  .links{display:none}
+  .menu-btn{display:flex}
+  nav{flex-wrap:nowrap}
+  header.open{background:rgba(5,5,5,.92);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px);border-color:rgba(255,255,255,.1)}
+  header.open .links{display:flex;position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:stretch;gap:4px;padding:12px 18px 22px;background:rgba(5,5,5,.95);border-bottom:1px solid rgba(255,255,255,.1)}
+  header.open .links a:not(.btn){display:block;padding:14px 4px;font-size:17px;border-bottom:1px solid rgba(255,255,255,.06)}
+  header.open .links .btn{justify-content:center;margin-top:10px}
+  .logo{font-size:15px}
+  .hero{padding-top:110px}
+  .hero h1{font-size:clamp(38px,11vw,56px)}
+  .tagline{font-size:19px}
+  .sub{font-size:16px}
+  .hero .ctas{width:100%;flex-direction:column}.hero .ctas .btn{justify-content:center}
+  .planet{width:720px;height:720px;top:110px}
+  .planet-zone{height:330px}
+  .tile{top:110px;width:66px;height:66px;border-radius:18px}
+  .beamv{height:130px}
+  .frame-zone{margin-top:-170px}
+  .frame{padding:6px;border-radius:12px}
+  .frame-bar{font-size:11px;padding:6px 6px 10px}
+  .waves{opacity:.6}
+  .logos{padding:64px 0 24px}.mtrack span{font-size:20px}.mtrack{gap:40px}
+  .head{margin-bottom:36px}
+  h2{font-size:clamp(28px,8vw,38px)}
+  .bento{grid-template-columns:minmax(0,1fr)}
+  .b-tall{grid-row:auto;min-height:320px}.b-wide{grid-column:auto}
+  .scene{height:420px}.stage{transform:scale(.62)}
+  .hint{font-size:12px}
+  #projects{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .tile3{border-radius:14px}
+  .ptag{font-size:9px;padding:4px 8px;top:8px;left:8px}
+  .pinfo{left:10px;right:10px;bottom:10px}
+  .ptitle{font-size:14px}.pwatch{font-size:11px}
+  .pplay{width:44px;height:44px;margin:-22px 0 0 -22px}
+  .pfilter{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;margin:0 -18px 24px;padding:0 18px 4px;scrollbar-width:none}
+  .pfilter::-webkit-scrollbar{display:none}
+  .pfilter .chip{flex:0 0 auto}
+  .tabs{flex-wrap:nowrap;overflow-x:auto;max-width:100%;scrollbar-width:none;justify-content:flex-start}
+  .tabs::-webkit-scrollbar{display:none}
+  .tabs button{flex:0 0 auto;padding:10px 14px}
+  .price{padding:24px}
+  .step .spot{padding:26px}.step h3{font-size:24px}
+  .bignum{font-size:84px}
+  .job{padding:22px}
+  .tools{grid-template-columns:minmax(0,1fr)}
+  .cta{padding:100px 0 150px}
+  .cta .ctas{flex-direction:column;width:100%}.cta .ctas .btn{justify-content:center}
+  .cta .planet{bottom:-600px}
+  .pad{padding:72px 0}
+  footer .wrap{flex-direction:column;align-items:center;text-align:center}
+}
+@media (max-width:380px){#projects{gap:10px}.ptitle{font-size:13px}.stage{transform:scale(.55)}}
+#reel{background-position:center;background-size:cover}#reel::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.15),rgba(0,0,0,.55));border-radius:inherit}#reel>*{position:relative}
+</style>
+</head>
+<body>
+<div class="ambient" aria-hidden="true"><i></i><i></i><i></i></div>
+
+<header id="hdr">
+<div class="wrap">
+<nav aria-label="Main">
+<a href="#top" class="logo"><span class="rec" aria-hidden="true"></span>Mujeeb Rahman Ismail<b>.</b></a>
+<div class="links" id="mnav">
+<a href="#work">Work</a>
+<a href="#services">Services</a>
+<a href="#process">Process</a>
+<a href="#packages">Packages</a>
+<a href="#contact" class="btn solid mag">Hire me <span class="ar">→</span></a>
+</div>
+<button type="button" class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mnav"><span></span><span></span></button>
+</nav>
+</div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="top">
+<svg class="waves" id="waves" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><g class="l"></g><g class="r"></g></svg>
+<span class="streak" style="left:22%;animation-delay:0s"></span><span class="streak" style="left:34%;animation-delay:1.8s"></span><span class="streak" style="left:63%;animation-delay:.9s"></span><span class="streak" style="left:77%;animation-delay:2.7s"></span>
+<div class="wrap">
+<a class="pill rv" href="#contact"><span>Available</span>Booking freelance shoots in the UAE ›</a>
+<h1 class="split">Mujeeb Rahman <em>Ismail</em></h1>
+<p class="tagline split">Videos that sell spaces &amp; capture moments.</p>
+<p class="sub split">Dubai videographer, photographer and editor — real estate films, event coverage and social reels, from first shot list to final export.</p>
+<div class="ctas rv">
+<a class="btn ghost mag" href="#work">See my work <span class="ar">→</span></a>
+<a class="btn solid mag" href="#contact">Book a shoot <span class="ar">→</span></a>
+</div>
+</div>
+<div class="planet-zone" aria-hidden="true"><div class="flare"></div><div class="planet"></div><div class="beamv"></div><div class="tile"><svg width="34" height="34" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg></div></div>
+</section>
+
+<!-- SHOWREEL FRAME -->
+<section class="frame-zone" aria-label="Showreel">
+<div class="wrap">
+<div class="frame" id="frame">
+<div class="frame-bar"><div class="dots"><i></i><i></i><i></i></div><span><span class="rec" aria-hidden="true"></span>REC · Showreel 2026</span><span>4K</span></div>
+<a class="reel" id="reel" href="#work">
+<span class="playb"><svg width="30" height="30" viewBox="0 0 24 24" fill="#C8C8C8" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+<span id="reelText">Showreel coming soon</span>
+</a>
+</div>
+</div>
+</section>
+
+<!-- LOGOS -->
+<section class="logos" aria-label="Brands and events">
+<p class="rv">Filmed for brands and events across Dubai</p>
+<div class="marq"><div class="mtrack" id="mtrack"></div></div>
+</section>
+
+<!-- SERVICES BENTO -->
+<section id="services" class="pad">
+<div class="wrap">
+<div class="head">
+<p class="eyebrow rv">What I do</p>
+<h2 class="split">Everything from shot list to final cut</h2>
+</div>
+<div class="bento">
+<div class="spot rv">
+<h3>Real estate films</h3>
+<p>Walkthroughs, launches and investment-led marketing videos.</p>
+<div class="mini">
+<div class="on">▶ Sheikh Zayed Road · office tower</div>
+<div>▶ Residential walkthrough</div>
+</div>
+</div>
+<div class="spot rv">
+<h3>Social reels</h3>
+<p>Punchy 30–45 second edits for Instagram and TikTok.</p>
+<svg class="wave" viewBox="0 0 300 70" fill="none" aria-hidden="true"><path d="M0 50 C30 50 40 20 70 25 S110 60 140 45 S190 10 220 22 S270 40 300 15" stroke="#C8C8C8" stroke-width="2.5" stroke-linecap="round"/></svg>
+</div>
+<div class="spot b-tall rv">
+<div class="beam" aria-hidden="true"></div>
+<div class="beam-icon" aria-hidden="true"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#F5F5F5" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="14" height="12" rx="2"/><path d="m16 10 6-3v10l-6-3"/></svg></div>
+<h3>Full production</h3>
+<p>Planning, lighting, capture, footage management and delivery — one person, end to end.</p>
+</div>
+<div class="spot b-wide rv">
+<h3>Event coverage</h3>
+<p>Award nights, corporate events and weddings — speakers, audience and the moments in between, plus fast-cut highlight edits.</p>
+<div class="spark" aria-hidden="true">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="#F5F5F5"><path d="M12 0l2.5 9.5L24 12l-9.5 2.5L12 24l-2.5-9.5L0 12l9.5-2.5z"/></svg>
+<svg width="34" height="34" viewBox="0 0 24 24" fill="#F5F5F5"><path d="M12 0l2.5 9.5L24 12l-9.5 2.5L12 24l-2.5-9.5L0 12l9.5-2.5z"/></svg>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="#C8C8C8"><path d="M12 0l2.5 9.5L24 12l-9.5 2.5L12 24l-2.5-9.5L0 12l9.5-2.5z"/></svg>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- 3D RING -->
+<section aria-label="Projects in 3D">
+<div class="wrap"><div class="head" style="margin-bottom:0">
+<p class="eyebrow rv">Selected work</p>
+<h2 class="split">Recent projects</h2>
+</div></div>
+<div class="scene" id="scene">
+<div class="stage"><div class="tilt" id="tilt"><div class="ring" id="ring"></div></div></div>
+<p class="hint">Move your mouse to tilt · hover to pause</p>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="work" class="pad" style="padding-top:40px">
+<div class="wrap">
+<div class="pfilter rv" id="pfilter" role="group" aria-label="Filter videos"></div>
+<div class="grid" id="projects"></div>
+<div style="text-align:center;margin-top:36px"><button type="button" class="btn ghost" id="pmore">View all</button></div>
+</div>
+</section>
+
+<!-- PROCESS (sticky) -->
+<section id="process" class="pad">
+<div class="wrap process">
+<div class="p-left">
+<p class="eyebrow">How I work</p>
+<h2 class="split">A simple process, start to finish</h2>
+<div class="bignum" id="bignum" aria-hidden="true">01</div>
+</div>
+<div class="p-right" id="steps"></div>
+</div>
+</section>
+
+<!-- PACKAGES -->
+<section id="packages" class="pad">
+<div class="wrap">
+<div class="head">
+<p class="eyebrow rv">Packages</p>
+<h2 class="split">Pick what fits your project</h2>
+<p class="sub rv">Starting prices in AED. Every package includes shooting, editing, licensed music and colour grading.</p>
+</div>
+<div class="tabwrap rv"><div class="tabs" role="tablist" id="tabs"><span class="pillbg" id="pillbg" aria-hidden="true"></span></div></div>
+<div class="prices" id="prices" role="tabpanel"></div>
+<div class="extras">
+<div class="spot rv"><h3>Add-ons</h3><div id="addons"></div></div>
+<div class="spot rv"><h3>Terms</h3><ol class="terms" id="terms"></ol></div>
+</div>
+<p class="pnote rv">Prices are per event or project. Custom quotes for multi-day events and corporate films.</p>
+</div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="pad">
+<div class="wrap">
+<div class="head">
+<p class="eyebrow rv">Experience</p>
+<h2 class="split">5+ years behind the camera</h2>
+<p class="sub rv">Videographer, photographer and editor producing content for real estate marketing, commercial projects, social media and corporate events — from planning the shoot and running camera, lighting and audio, to the final colour-graded edit.</p>
+</div>
+<ol class="jobs" id="jobs"></ol>
+<div class="kit">
+<div class="spot rv" style="padding:28px"><h3 class="kh">Tools</h3><div class="tools" id="tools"></div></div>
+<div class="spot rv" style="padding:28px"><h3 class="kh">Skills</h3><div class="chips" id="skills"></div></div>
+</div>
+</div>
+</section>
+
+<!-- CTA -->
+<section id="contact" class="cta">
+<div class="wrap">
+<p class="eyebrow rv">Let's work together</p>
+<h2 class="split">Have a project in mind?</h2>
+<p class="sub rv">Tell me about your shoot — I'll reply with ideas and a quote.</p>
+<div class="ctas rv">
+<a class="btn solid mag" href="https://wa.me/971547170476">WhatsApp +971 54 717 0476 <span class="ar">→</span></a>
+<a class="btn ghost mag" href="https://instagram.com/dreamsbtqstudio.ae">Studio · @dreamsbtqstudio.ae</a>
+<a class="btn ghost mag" href="https://instagram.com/mujeebrahmanismail">Personal · @mujeebrahmanismail</a>
+</div>
+<p class="rv" style="margin:0;color:var(--muted);font-size:15px">Email: <a href="mailto:mujebrahmnismail7@gmail.com">mujebrahmnismail7@gmail.com</a></p>
+</div>
+<div aria-hidden="true"><div class="flare"></div><div class="planet"></div></div>
+</section>
+</main>
+
+<footer><div class="wrap"><span>© 2026 Mujeeb Rahman Ismail · <a href="https://instagram.com/dreamsbtqstudio.ae" style="color:var(--muted)">Instagram</a></span><span>Dubai, United Arab Emirates</span></div></footer>
+
+<script>
+/* ===== EDIT YOUR CONTENT HERE =====
+   link:  YouTube / Vimeo / Google Drive link
+   thumb: image file added to the site, e.g. "thumbs/emaar.jpg" */
+const SHOWREEL = { link: "https://drive.google.com/file/d/1QZnL6mTOq1yemojvQaLcr2vcxVuGZMgr/view", thumb: "https://lh3.googleusercontent.com/d/1R7D4Y-P0ScFT2gEI_nxOPNI4hMk0Kqtb=w1400" };
+const BRANDS = ["DRE Homes Real Estate", "DigTel Digital Marketing", "Emaar Awards", "Dreams BTQ Studio"];
+const PROJECTS = [
+{
+"tag": "Real estate",
+"title": "Siro × Villa 103",
+"link": "https://drive.google.com/file/d/1mEIMp0TFXatxVFM1RR01Tj6JlhIGqjKr/view",
+"thumb": "https://lh3.googleusercontent.com/d/1Ax4ZsGlEhszLhV3zACFW1BjOXX6GpJ5f=w900"
+},
+{
+"tag": "Real estate",
+"title": "Alia × Alex",
+"link": "https://drive.google.com/file/d/1rKY2SOY3liYE-_M9EAxppXAdEjkB_op1/view",
+"thumb": "https://lh3.googleusercontent.com/d/1ejlJuIgRWoeelJBTm4to5Rjxie0xmNzb=w900"
+},
+{
+"tag": "Real estate",
+"title": "Alina × Sakura Gardens",
+"link": "https://drive.google.com/file/d/1B7FnROqquqRGnijz2wD9oVrqCzt9m606/view",
+"thumb": "https://lh3.googleusercontent.com/d/1YUXSIIqC5aaH1fQbBo1DBv8Oh_nzMIrt=w900"
+},
+{
+"tag": "Real estate",
+"title": "Faffie × Siro",
+"link": "https://drive.google.com/file/d/1IvkcoiYyfNkzlp9tCg3g_zg5QRk2lBIK/view",
+"thumb": "https://lh3.googleusercontent.com/d/1qwGZnzV_RefV8BiAtecze00QgHBxJ49c=w900"
+},
+{
+"tag": "Real estate",
+"title": "Palm × Siro",
+"link": "https://drive.google.com/file/d/1jt1s-JBafIdy8IYV7Gw5DAsu41p0rAuT/view",
+"thumb": "https://lh3.googleusercontent.com/d/1yBppeKcpp2PC9xanKAsu2KUEKglbHBhy=w900"
+},
+{
+"tag": "Real estate",
+"title": "Siro × Bayut",
+"link": "https://drive.google.com/file/d/14hcO2uoyMIAKYdNXYCxeGK_RrKeIfobo/view",
+"thumb": "https://lh3.googleusercontent.com/d/1UfuTNBxCgZbvzoN8_ZRIwZ_6aRM08JEE=w900"
+},
+{
+"tag": "Real estate",
+"title": "Samana × Qurat",
+"link": "https://drive.google.com/file/d/1piqGEWQ-aygg1udJCtTF9C4nSnALpCln/view",
+"thumb": "https://lh3.googleusercontent.com/d/1HyqrU6u0Tn-l7Wxm-2N5k8D0vm_8Dr4K=w900"
+},
+{
+"tag": "Real estate",
+"title": "Sei by Aldar × Pele",
+"link": "https://drive.google.com/file/d/1ywApcLAkS72kJ2scXAUs_-B4iDz5nvlu/view",
+"thumb": "https://lh3.googleusercontent.com/d/1zFRRLCHe-4U72q6eE70lPZi50Je91vW7=w900"
+},
+{
+"tag": "Real estate",
+"title": "Ramhan Island × Alina",
+"link": "https://drive.google.com/file/d/1LKfk6jQyqKNBYov5JzrZcMdF0oO925hO/view",
+"thumb": "https://lh3.googleusercontent.com/d/1RY-sYsqwHNsgdYvOCa1XZAIXeshl1AY1=w900"
+},
+{
+"tag": "Real estate",
+"title": "Mudasir × Binghatti",
+"link": "https://drive.google.com/file/d/1FgAqG6n71lsqlRHlShdNU87sigJrFKp3/view",
+"thumb": "https://lh3.googleusercontent.com/d/1hofFjC5UhOhe8hkoIzYW8-wbx7ZojWJ5=w900"
+},
+{
+"tag": "Real estate",
+"title": "Fast Talk with Agents",
+"link": "https://drive.google.com/file/d/1aYmOJQBfEOTFFPlfMC_uma-77ud0M8el/view",
+"thumb": "https://lh3.googleusercontent.com/d/1a1MS5hX-4clrwThdI314i6nGqb0fcgke=w900"
+},
+{
+"tag": "Events",
+"title": "Emaar Awards",
+"link": "https://drive.google.com/file/d/1LfVu17weIch6HnsqNuHUWINHjrzNoQwi/view",
+"thumb": "https://lh3.googleusercontent.com/d/1ElM_Z9cQ7Rf_troFhkl0XFOQv3aUsKPH=w900"
+},
+{
+"tag": "Events",
+"title": "Binghatti Awards",
+"link": "https://drive.google.com/file/d/12EKroUMPtgW3TLJ6-cjL8LD6y9SnctaZ/view",
+"thumb": "https://lh3.googleusercontent.com/d/1MMo4qgASOMWuGZiAVD612jdkc5KnD_S0=w900"
+},
+{
+"tag": "Events",
+"title": "Porsche Carrera Cup",
+"link": "https://drive.google.com/file/d/1um-5h--lKAHBoy0_Q2yrAWOobo_mEumF/view",
+"thumb": "https://lh3.googleusercontent.com/d/1Dd5EdrnK_-YWYk6bb8YYp99r-ar_It1l=w900"
+},
+{
+"tag": "Events",
+"title": "Damac Event",
+"link": "https://drive.google.com/file/d/18qJIomaoSkjcjOYEU8U33LtLcagpypMG/view",
+"thumb": "https://lh3.googleusercontent.com/d/1OvhuptnBmkSUi-Is17t5FoLdU8MWNLEC=w900"
+},
+{
+"tag": "Events",
+"title": "SoulRing DXB",
+"link": "https://drive.google.com/file/d/1QZnL6mTOq1yemojvQaLcr2vcxVuGZMgr/view",
+"thumb": "https://lh3.googleusercontent.com/d/1Ri1wpzlEiGSual38827LX1Cwqr_NEic-=w900"
+},
+{
+"tag": "Events",
+"title": "Sports Hub Season 3",
+"link": "https://drive.google.com/file/d/1CghxuI0fL_YZc1-RhalJsGuuI7kW0hF3/view",
+"thumb": "https://lh3.googleusercontent.com/d/15IkCUg3bkn0g3rYhst_KQigdy_v0aL1-=w900"
+},
+{
+"tag": "Real estate",
+"title": "Samana × Maybelyn",
+"link": "https://drive.google.com/file/d/1ppx4_ZEuKj9Aq-i9DdN2EaTwojSPL2TR/view",
+"thumb": ""
+},
+{
+"tag": "Real estate",
+"title": "Team Mosthafa × Leads",
+"link": "https://drive.google.com/file/d/15HAL_h5ciULgwF9uJt-04kXp46dSVKsK/view",
+"thumb": ""
+},
+{
+"tag": "Real estate",
+"title": "Punam Walia",
+"link": "https://drive.google.com/file/d/1dMW6jaA7AOqyo3aZDEPME34BwDAkC1bK/view",
+"thumb": ""
+},
+{
+"tag": "Events",
+"title": "Kore by Imtiaz Event",
+"link": "https://drive.google.com/file/d/11lh9U4jmMtrP4ITQa27rNCjjs-uOxxAh/view",
+"thumb": ""
+},
+{
+"tag": "Events",
+"title": "Zoya × DRE Event",
+"link": "https://drive.google.com/file/d/1osEacIZefeBcOMMTU5oHM9_j-gDCXEUt/view",
+"thumb": ""
+},
+{
+"tag": "Events",
+"title": "Sports Hub",
+"link": "https://drive.google.com/file/d/1CbhCFrMe3xkx5bRZkabmiNM_kLxRCBP3/view",
+"thumb": ""
+},
+{
+"tag": "Events",
+"title": "Bayut Run",
+"link": "https://drive.google.com/file/d/1LHtCTyC64A35czXlsxJfdL_1EfSBX2w3/view",
+"thumb": ""
+},
+{
+"tag": "Brand reels",
+"title": "Yaco Reel 07",
+"link": "https://drive.google.com/file/d/17QpOZNYUhDpcLqQ0s0ubpN3WUelHnZ6V/view",
+"thumb": ""
+},
+{
+"tag": "Brand reels",
+"title": "Yaco Reel 04",
+"link": "https://drive.google.com/file/d/1zZ3Qii6qhUOuob1ttctDo5auj9KMWmA7/view",
+"thumb": ""
+},
+{
+"tag": "Brand reels",
+"title": "Yaco Reel 03",
+"link": "https://drive.google.com/file/d/1RSV_c92q5klB-wWDPZwCG5QEAUy6wOhT/view",
+"thumb": ""
+},
+{
+"tag": "Brand reels",
+"title": "Yaco Reel 05",
+"link": "https://drive.google.com/file/d/1M55PdNIjIDkW4wmMUgwZsnzmUL3cmvC-/view",
+"thumb": ""
+},
+{
+"tag": "Brand reels",
+"title": "Yaco Reel 02",
+"link": "https://drive.google.com/file/d/1Lm34I2BVpLVXIwKm3MHUZcknCTNQ6gJ3/view",
+"thumb": ""
+},
+{
+"tag": "Brand reels",
+"title": "Wellfit Reel 07",
+"link": "https://drive.google.com/file/d/15YSRa7FAe9Gzp8_Z0DY6dnS8KBrq6oQd/view",
+"thumb": ""
+},
+{
+"tag": "Brand reels",
+"title": "Wellfit Reel 10",
+"link": "https://drive.google.com/file/d/1fTYQ9rB_Gwn5UbkZjvpquWZNvH6unKiX/view",
+"thumb": ""
+},
+{
+"tag": "Brand reels",
+"title": "UC Reel 01",
+"link": "https://drive.google.com/file/d/1zik05ENvr8tA581hv0FJRboUi81QhHg_/view",
+"thumb": ""
+},
+{
+"tag": "Brand reels",
+"title": "UC Reel 02",
+"link": "https://drive.google.com/file/d/1zKPLsf8Cf6biX0ZCtTEek7IEMuBe0AOz/view",
+"thumb": ""
+},
+{
+"tag": "Brand reels",
+"title": "UC Reel 05",
+"link": "https://drive.google.com/file/d/1_3kPqL3n75yT774AeQrN8z8Q4vyQJEfi/view",
+"thumb": ""
+},
+{
+"tag": "Brand reels",
+"title": "UC Reel 08",
+"link": "https://drive.google.com/file/d/1apgpS3f5kF77ffz9UVZKrUH4e81PktFP/view",
+"thumb": ""
+},
+{
+"tag": "Brand reels",
+"title": "Creek Reel 10",
+"link": "https://drive.google.com/file/d/15AJbCwajTZgJlPHH0QJJWDsUBYo62rB6/view",
+"thumb": ""
+},
+{
+"tag": "Brand reels",
+"title": "Creek Reel 03",
+"link": "https://drive.google.com/file/d/1gaMwmPheXIf4_2SMMzbg73ckVdsDqQTl/view",
+"thumb": ""
+},
+{
+"tag": "Brand reels",
+"title": "Gravity Reel 02",
+"link": "https://drive.google.com/file/d/18gPtqVl7mJ48FWDEq9MdnXypDKOvaScO/view",
+"thumb": ""
+},
+{
+"tag": "Brand reels",
+"title": "BG Reel 05",
+"link": "https://drive.google.com/file/d/1NG3m2MBvUeZvtytJuHx7ncoQy7BHZhmW/view",
+"thumb": ""
+}
+];
+/* highlights shown in the 3D ring */
+const RING = ["Emaar Awards","Porsche Carrera Cup","Siro × Villa 103","Binghatti Awards","Sports Hub Season 3","Alina × Sakura Gardens","SoulRing DXB","Damac Event"];
+const STEPS = [
+  { t:"Plan", d:"We talk goals, audience and platform. I write the shot list or script and plan locations, lighting and timing." },
+  { t:"Shoot", d:"Professional camera, lighting and audio on set — capturing every angle the edit will need." },
+  { t:"Edit", d:"Cutting, colour, sound design and motion text, shaped for the platform it's going to." },
+  { t:"Deliver", d:"Final files in every format you need — vertical, horizontal, short cut and full version — on deadline." }
+];
+const PACKAGES = {
+  "Events": { per:"/ event", note:"up to 5 hrs", tiers:[
+    { name:"Essential", sub:"Video only", price:"1,500", items:["1 videographer","Highlight film (2–3 min)","2 vertical reels","Licensed music, colour grading, 4K"] },
+    { name:"Champion", sub:"Photo + video", price:"2,800", hot:true, items:["1 videographer + 1 photographer","Highlight film (3–4 min)","4 vertical reels","100+ edited photos"] },
+    { name:"Legend", sub:"Full production", price:"4,500", items:["2 videographers + 1 photographer","Highlight film + 6 reels","Same-night teaser reel","200+ edited photos"] } ]},
+  "Real estate": { per:"/ project", tiers:[
+    { name:"Essential", sub:"Single reel", price:"600", items:["One 30–45 sec reel","Vertical for Instagram & TikTok","Music and text overlays"] },
+    { name:"Champion", sub:"Walkthrough", price:"1,500", hot:true, items:["1–2 min walkthrough film","2 vertical reels","Interiors and exteriors"] },
+    { name:"Legend", sub:"Launch package", price:"3,500", items:["Project launch film","4 vertical reels","30 edited photos"] } ]},
+  "Monthly content": { per:"/ month", tiers:[
+    { name:"Essential", sub:"8 videos", price:"2,800", items:["8 social videos per month","Filmed on scheduled shoot days","Captions and music"] },
+    { name:"Champion", sub:"16 videos", price:"5,000", hot:true, items:["16 social videos per month","Script or no-script options","Clear monthly limits"] },
+    { name:"Legend", sub:"16 videos + photos", price:"7,500", items:["16 social videos per month","Scriptwriting included","Monthly photo shoot"] } ]},
+  "Weddings": { per:"", tiers:[
+    { name:"Essential", sub:"One event", price:"3,500", items:["1 event coverage","Highlight film","Licensed music, colour grading"] },
+    { name:"Champion", sub:"Two events", price:"6,000", hot:true, items:["2 events, photo + video","Highlight films for each","Edited photo gallery"] },
+    { name:"Legend", sub:"Full celebration", price:"9,500", items:["Mehendi, Nikah & reception","6 videos incl. fast-cut","Photo + video coverage"] } ]}
+};
+const ADDONS = [["Same-night teaser reel","AED 500"],["Extra reel (each)","AED 250"],["Extra hour of coverage","AED 300"],["Raw footage on drive","AED 300"],["Rush delivery (24–48 hrs)","+30%"]];
+const TERMS = ["50% advance to confirm, balance on delivery","Photos in 3 days; films & reels in 5–7 days","Two rounds of revisions included","Permits and travel outside Dubai charged separately"];
+const JOBS = [
+  { role:"Videographer & Video Editor", place:"DRE Homes Real Estate · Dubai", when:"Jul 2026 – Present", items:["Real estate marketing videos, property content and social media reels","Corporate events, award ceremonies and company marketing activities","Camera, lighting and audio on set; colour correction and grading in post","Work with the marketing team and agents to match campaign goals"] },
+  { role:"Videographer & Video Editor", place:"DigTel Digital Marketing Agency · Dubai", when:"2025 – 2026", items:["Planned and shot video content for agency clients","Edited client videos in professional editing software","Shaped content requirements and creative direction with clients","Ran multiple projects in parallel and met delivery deadlines"] },
+  { role:"Photographer", place:"Dreams BTQ Studio · Dubai", when:"2023 – 2025", items:["Professional photography and short-form video content","Shoots managed from concept and preparation to final delivery","Camera setup, lighting, composition, editing and retouching"] },
+  { role:"Freelance Photographer", place:"Independent · UAE", when:"2020 – 2021", items:["Built a photography portfolio through client assignments","Planned, shot and edited photography and lifestyle content"] }
+];
+const TOOLS = ["Adobe Premiere Pro","After Effects","Lightroom","Photoshop"];
+const SKILLS = ["Videography","Photography","Video editing","Colour correction & grading","Lighting & composition","Social media content","Creative direction","Visual storytelling","Client collaboration","Project coordination"];
+/* ================================== */
+
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const bg = t => t ? ` style="background-image:url('${esc(t)}')"` : '';
+const playIco = '<svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#C8C8C8" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M10 8l6 4-6 4z" fill="#C8C8C8"/></svg>';
+const linkAttrs = l => l ? ` href="${esc(l)}" target="_blank" rel="noopener"` : '';
+
+// mobile menu
+(() => {
+  const btn = document.getElementById('menuBtn'), hdr = document.getElementById('hdr');
+  btn.addEventListener('click', () => { const o = hdr.classList.toggle('open'); btn.setAttribute('aria-expanded', o); btn.setAttribute('aria-label', o ? 'Close menu' : 'Open menu'); });
+  document.querySelectorAll('#mnav a').forEach(a => a.addEventListener('click', () => { hdr.classList.remove('open'); btn.setAttribute('aria-expanded', false); }));
+})();
+
+// hero wave ribbons
+(() => {
+  const ns = 'http://www.w3.org/2000/svg', svg = document.getElementById('waves');
+  const L = svg.querySelector('.l'), R = svg.querySelector('.r');
+  for (let i = 0; i < 46; i++) {
+    const a = (0.05 + (i / 46) * 0.22).toFixed(3);
+    const y0 = 40 + i * 9, y1 = 620 + i * 2.2;
+    const dl = `M -60 ${y0} C 260 ${y0 - 30}, 380 ${y1 - 60}, 760 ${y1 + 30}`;
+    const dr = `M 1500 ${y0} C 1180 ${y0 - 30}, 1060 ${y1 - 60}, 680 ${y1 + 30}`;
+    [[L, dl], [R, dr]].forEach(([g, d]) => { const p = document.createElementNS(ns, 'path'); p.setAttribute('d', d); p.setAttribute('fill', 'none'); p.setAttribute('stroke', `rgba(255,255,255,${a})`); p.setAttribute('stroke-width', '1'); g.appendChild(p); });
+  }
+})();
+
+// marquee
+const b = BRANDS.concat(BRANDS, BRANDS, BRANDS);
+document.getElementById('mtrack').innerHTML = b.map(x => `<span>${esc(x)}</span>`).join('');
+
+// showreel
+const reel = document.getElementById('reel');
+if (SHOWREEL.thumb) reel.style.backgroundImage = `url('${SHOWREEL.thumb}')`;
+if (SHOWREEL.link) { reel.href = SHOWREEL.link; reel.target = '_blank'; reel.rel = 'noopener'; document.getElementById('reelText').textContent = 'Watch showreel'; }
+
+// ring
+const ringItems = RING.map(n => PROJECTS.find(p => p.title === n)).filter(Boolean);
+document.getElementById('ring').innerHTML = ringItems.map((p,i) => {
+  const t = p.link ? 'a' : 'div';
+  return `<${t} class="panel"${linkAttrs(p.link)} style="transform:rotateY(${i*360/ringItems.length}deg) translateZ(var(--rz,460px))">${p.thumb?`<img src="${esc(p.thumb)}" alt="" loading="lazy">`:''}<span class="pshade"></span><div class="pmeta"><p class="tag">${esc(p.tag)}</p><p class="tt">${esc(p.title)}</p></div></${t}>`;
+}).join('');
+
+// projects with filter
+const filt = document.getElementById('pfilter');
+const pcats = ['All', ...new Set(PROJECTS.map(p => p.tag))];
+const SHOW = 12; let pcat = 'All', expanded = false;
+filt.innerHTML = pcats.map(c => `<button type="button" class="chip${c==='All'?' on':''}" data-c="${esc(c)}" aria-pressed="${c==='All'}">${esc(c)} <span class="cnt">${c==='All'?PROJECTS.length:PROJECTS.filter(p=>p.tag===c).length}</span></button>`).join('');
+function renderProjects(){
+  const list = PROJECTS.filter(p => pcat==='All' || p.tag===pcat);
+  const shown = expanded ? list : list.slice(0, SHOW);
+  const g = document.getElementById('projects');
+  g.classList.remove('swap'); void g.offsetWidth;
+  g.innerHTML = shown.map((p,i) => `<a class="proj tile3" href="${esc(p.link)}" target="_blank" rel="noopener" aria-label="Watch ${esc(p.title)} (opens Google Drive)">
+    ${p.thumb ? `<img src="${esc(p.thumb)}" alt="" loading="lazy" decoding="async">` : `<span class="noimg" aria-hidden="true"><span class="pnum">${String(i+1).padStart(2,'0')}</span></span>`}
+    <span class="shade" aria-hidden="true"></span>
+    <span class="ptag">${esc(p.tag)}</span>
+    <span class="pplay" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg></span>
+    <span class="pinfo"><span class="ptitle">${esc(p.title)}</span><span class="pwatch">Watch ↗</span></span>
+  </a>`).join('');
+  g.classList.add('swap');
+  const more = document.getElementById('pmore');
+  more.hidden = list.length <= SHOW;
+  more.textContent = expanded ? 'Show less' : `View all ${list.length} videos`;
+  try { addSheen(); } catch (e) {}
+}
+filt.addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; pcat = b.dataset.c; expanded = false; filt.querySelectorAll('button').forEach(x => { x.classList.toggle('on', x===b); x.setAttribute('aria-pressed', x===b); }); renderProjects(); });
+document.getElementById('pmore').addEventListener('click', () => { expanded = !expanded; renderProjects(); });
+renderProjects();
+
+// steps
+document.getElementById('steps').innerHTML = STEPS.map((s,i) => `<div class="step" data-i="${i}"><div class="spot"><span class="n">STEP 0${i+1}</span><h3>${esc(s.t)}</h3><p>${esc(s.d)}</p></div></div>`).join('');
+
+// packages with tabs
+const tabsEl = document.getElementById('tabs'), pillbg = document.getElementById('pillbg'), pricesEl = document.getElementById('prices');
+const cats = Object.keys(PACKAGES);
+cats.forEach((c,i) => { const b = document.createElement('button'); b.type='button'; b.role='tab'; b.textContent=c; b.setAttribute('aria-selected', i===0); b.onclick=()=>showCat(i); tabsEl.appendChild(b); });
+function movePill(btn){ pillbg.style.width = btn.offsetWidth + 'px'; pillbg.style.transform = `translate(${btn.offsetLeft - 5}px, ${btn.offsetTop - 5}px)`; }
+function showCat(i){
+  const btns = tabsEl.querySelectorAll('button');
+  btns.forEach((b,j)=>b.setAttribute('aria-selected', j===i));
+  movePill(btns[i]);
+  const cat = PACKAGES[cats[i]];
+  pricesEl.classList.remove('swap'); void pricesEl.offsetWidth;
+  pricesEl.innerHTML = cat.tiers.map(p => `<div class="price spot${p.hot?' hot':''}">${p.hot?'<span class="badge">Recommended</span>':''}<div><h3 style="font-size:24px">${esc(p.name)}</h3><p class="tier">${esc(p.sub)}${cat.note?' · '+esc(cat.note):''}</p></div><div class="amt"><small>from</small> AED ${esc(p.price)} <small>${esc(cat.per)}</small></div><ul>${p.items.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><a class="btn ${p.hot?'solid':'ghost'}" href="#contact" style="margin-top:auto;justify-content:center">Get a quote <span class="ar">→</span></a></div>`).join('');
+  pricesEl.classList.add('swap');
+}
+showCat(0);
+['load','resize'].forEach(ev => addEventListener(ev, () => movePill(tabsEl.querySelector('[aria-selected="true"]'))));
+document.getElementById('addons').innerHTML = ADDONS.map(a=>`<div class="addon"><span>${esc(a[0])}</span><b>${esc(a[1])}</b></div>`).join('');
+document.getElementById('terms').innerHTML = TERMS.map(t=>`<li>${esc(t)}</li>`).join('');
+
+// jobs
+document.getElementById('jobs').innerHTML = JOBS.map(j => `<li class="job spot rv"><div><h3>${esc(j.role)}</h3><p class="pl">${esc(j.place)}</p><ul class="jl">${j.items.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div><p class="w">${esc(j.when)}</p></li>`).join('');
+document.getElementById('tools').innerHTML = TOOLS.map((t,i)=>`<span class="tool" style="animation-delay:${i*.4}s"><b>${esc(t.replace('Adobe ','').split(' ').map(w=>w[0]).join('').slice(0,2))}</b>${esc(t)}</span>`).join('');
+document.getElementById('skills').innerHTML = SKILLS.map(t=>`<span class="chip">${esc(t)}</span>`).join('');
+
+// glass sheen on cards
+const addSheen = () => document.querySelectorAll('.spot').forEach(c => { if (!c.querySelector(':scope > .sheen')) { const sh = document.createElement('span'); sh.className = 'sheen'; sh.setAttribute('aria-hidden','true'); c.prepend(sh); } });
+addSheen(); new MutationObserver(addSheen).observe(document.getElementById('prices'), { childList: true });
+new MutationObserver(addSheen).observe(document.getElementById('projects'), { childList: true });
+
+// split text into words
+document.querySelectorAll('.split').forEach(el => {
+  const walk = node => {
+    [...node.childNodes].forEach(n => {
+      if (n.nodeType === 3) {
+        const frag = document.createDocumentFragment();
+        n.textContent.split(/(\s+)/).forEach(part => {
+          if (!part) return;
+          if (/^\s+$/.test(part)) frag.appendChild(document.createTextNode(part));
+          else { const s = document.createElement('span'); s.className = 'w'; s.textContent = part; frag.appendChild(s); }
+        });
+        n.replaceWith(frag);
+      } else if (n.nodeType === 1) walk(n);
+    });
+  };
+  walk(el);
+  el.querySelectorAll('.w').forEach((w,i) => w.style.transitionDelay = (i*0.05)+'s');
+});
+
+// reveal on view
+const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .15 });
+document.querySelectorAll('.rv,.split').forEach((el,i) => { if (el.classList.contains('rv')) el.style.transitionDelay = ((i%3)*0.08)+'s'; io.observe(el); });
+
+// sticky process steps
+const big = document.getElementById('bignum');
+const sio = new IntersectionObserver(es => es.forEach(e => {
+  if (e.isIntersecting) {
+    document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
+    e.target.classList.add('active');
+    big.style.opacity = 0;
+    setTimeout(() => { big.textContent = '0' + (+e.target.dataset.i + 1); big.style.opacity = 1; }, 150);
+  }
+}), { rootMargin: '-45% 0px -45% 0px' });
+document.querySelectorAll('.step').forEach(s => sio.observe(s));
+document.querySelector('.step').classList.add('active');
+
+// spotlight follow
+document.addEventListener('pointermove', e => {
+  document.querySelectorAll('.spot').forEach(c => {
+    const r = c.getBoundingClientRect();
+    c.style.setProperty('--mx', (e.clientX - r.left) + 'px');
+    c.style.setProperty('--my', (e.clientY - r.top) + 'px');
+  });
+}, { passive: true });
+
+// magnetic buttons
+const fine = matchMedia('(pointer:fine)').matches;
+if (fine) document.querySelectorAll('.mag').forEach(btn => {
+  btn.addEventListener('mousemove', e => {
+    const r = btn.getBoundingClientRect();
+    btn.style.transform = `translate(${(e.clientX - r.left - r.width/2) * .25}px, ${(e.clientY - r.top - r.height/2) * .35}px)`;
+  });
+  btn.addEventListener('mouseleave', () => btn.style.transform = '');
+});
+
+// scroll: header + showreel frame tilt
+const hdr = document.getElementById('hdr'), frame = document.getElementById('frame');
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const onScroll = () => {
+  hdr.classList.toggle('scrolled', scrollY > 20);
+  if (reduce) return;
+  const r = frame.getBoundingClientRect();
+  const p = Math.min(1, Math.max(0, 1 - (r.top - innerHeight * 0.15) / (innerHeight * 0.6)));
+  frame.style.transform = `rotateX(${28 * (1 - p)}deg) scale(${0.9 + 0.1 * p})`;
+};
+addEventListener('scroll', () => requestAnimationFrame(onScroll), { passive: true });
+onScroll();
+
+// ring tilt
+const scene = document.getElementById('scene'), tilt = document.getElementById('tilt');
+let raf;
+scene.addEventListener('mousemove', e => {
+  const r = scene.getBoundingClientRect();
+  const x = (e.clientX - r.left)/r.width - .5, y = (e.clientY - r.top)/r.height - .5;
+  cancelAnimationFrame(raf);
+  raf = requestAnimationFrame(() => tilt.style.transform = `rotateX(${-8 - y*24}deg) rotateY(${x*30}deg)`);
+});
+scene.addEventListener('mouseleave', () => tilt.style.transform = 'rotateX(-8deg)');
+</script>
+</body>
+</html>
